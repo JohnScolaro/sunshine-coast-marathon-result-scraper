@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sunshine_coast_marathon_results_scraper"
+version = "1.0.0"
+description = "Scrapes the results of the 2024 sunshine coast marathon from their results website. Saves into a JSON for further processing."
+authors = [
+    {name = "John Scolaro", email = "johnscolaro95@gmail.com"}
+]
+dependencies = [
+    'beautifulsoup4==4.12.3',
+    'requests==2.32.3',
+    'plotly==5.23.0'
+]
+
+[project.scripts]
+run = "code.scraper:main"
