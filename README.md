@@ -1,6 +1,8 @@
 # Sunshine Coast Marathon Festival Results Scraper
 
-I like to do data analysis, and I like to run. To do data analysis on running, data I need to get it from somewhere, so I built a scraper to hit the result website of the Sunshine Coast Marathon and format everyones results into a nice little JSON file for later processing.
+I like to do data analysis, and I like to run. To do data analysis on running data I need to get it from somewhere, so I built a scraper to hit the result website of the Sunshine Coast Marathon and format everyones results into a nice little JSON file for later processing.
+
+To see my writeup, check it out here: https://johnscolaro.xyz/blog/sunshine-coast-marathon-2024
 
 ## Setup
 
